@@ -1,0 +1,91 @@
+img {
+    border-radius: 50%;
+    margin-bottom: 50px;
+    height: 200px;  
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(blue,hotpink);
+    background-repeat: no repeat;
+}
+
+.line {
+    height: 6px;
+    width: 70px;
+    background-color: black;
+    margin: 8px auto;
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+h1 {
+    text-shadow: 2px 2px #2962FF;
+    font-size: 40px;
+    font-family: 'Potta One', cursive;
+}
+
+#bio {
+    padding: 20px;
+    text-align: center;
+    font-size: 18px
+}
+
+#welcome {
+    z-index: 346;
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    font-family: monospace;
+    position: fixed;
+    top: 10px;
+    left: 20px;
+    z-index: 347;
+    cursor: pointer;
+}
+
+.links {
+    float: left;
+    color: cyan;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 9px;
+    padding-left: 9px;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 20px;
+}
+
+.links:hover {
+    background-color: dodgerblue;
+    font-family: 'Texturina', serif;
+
+}
+a{
+    text-decoration: none;
+    background-color: fuchsia;
+    border-width:large;
+    border-color: darkorange;
+    border-style: solid;
+}
+html{
+    scroll-behavior: smooth;
+}
+.button {
+  background-color: darkolivegreen;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-width: thick;
+  border-color: yellow;
+  border-style: dashed;
+}
